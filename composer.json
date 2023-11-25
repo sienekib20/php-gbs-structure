@@ -1,0 +1,24 @@
+{
+    "name": "skelys/gbs",
+    "description": "Gbs, a PHP project structure",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/var-dumper": "^6.3",
+        "symfony/console": "^6.3",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "license": "MIt",
+    "autoload": {
+        "psr-4": {
+            "Skelys\\Gbs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sienekib20",
+            "email": "sienekib@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
